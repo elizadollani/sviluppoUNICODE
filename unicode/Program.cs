@@ -116,6 +116,20 @@ namespace unicode
 			//}
 			//Console.ReadLine();
 
+
+
+
+			// Il terzo esercizio permette di convertire un qualsiasi carattere utilizzando il codice ASCII
+			//Console.WriteLine("Inserisci un carattere");
+			//char carattere = Convert.ToChar(Console.ReadLine());
+			//int number = carattere;
+			//number = number + 4;
+
+			//Console.WriteLine($"Il carattere digitato corrisponde al carattere {number.ToString()}");
+			//string binario = Convert.ToString(number, 2).PadLeft(8, '0');
+			//Console.WriteLine($" Il carattere in binario è {binario}");
+			//Console.ReadLine();
+
 		}
 	}
 }

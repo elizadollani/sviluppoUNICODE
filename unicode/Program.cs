@@ -10,6 +10,7 @@ namespace unicode
 			//	 "This unicode string has 2 characters outside the" +
 			//	  " ASCII range: \n" +
 			//	  "Pi (\u03A0), and Sigma (\u03A3).";
+			Console.InputEncoding = System.Text.Encoding.Unicode;
 			string unicodeString = "";
 			Console.WriteLine(" Scrivi un mesaggio"); // Dico all' utente di inserire una qualsiasi frase a tastiera 
 			unicodeString = Console.ReadLine();  // permette di inserire la frase all'utente 
